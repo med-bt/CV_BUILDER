@@ -1,0 +1,130 @@
+*{
+    display: block;
+    box-sizing: border-box;
+}
+::selection{
+    background-color:#dcdcdc;
+}
+body{
+    background-color:#dcdcdc;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    max-width: 100%;
+    align-items: center;
+    overflow: hidden;
+    font-family: arial;
+}
+.container{
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 550px;
+    margin:auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 3%;
+    box-shadow:10px 10px 20px  grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.gauche{
+    width: 60%;
+    background-color: white;
+    height: 100%;
+    margin-top: 0px;
+    padding: 0;
+    display: block;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    border-radius: 3%;
+    margin: 20px 0 20px 20px ;
+  }
+::-webkit-scrollbar{
+   display:none;
+  }
+.droit{
+    width: 40%;
+    background-color: grey;
+    height: 100%;
+    margin-top: 0px;
+    justify-content: center;
+    border-right: 100px black;
+    display: block;
+    border-radius: 3%;
+    box-shadow:5px 5px 8px  grey;    
+  }
+.photo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+    ruby-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section{
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.profil{
+    text-align: left;
+    text-indent: 10px;
+    font: italic   arial ;
+    font-size: 20px;
+    border: 10%;
+    padding: 4% ;
+}
+
+.principale {
+    text-align: center;
+}
+li {
+    font-size: 20px;
+}
+.comp{
+    font-size: 30px;
+    text-indent: 10px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.competence {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.icon{
+    height: 80px;
+    width: 80px;
+    margin-right:50px;
+}
+.small_icon{
+    width: 50px;
+    height: 50px;
+}
+.small_icon :hover {
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right:70px ;
+    padding-left:70px ;
+    width: 100%;
+    align-content: center;
+}
+.photo_text{
+    margin:20px;
+    border-bottom: 1px solid white;
+}
